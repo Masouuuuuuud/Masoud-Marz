@@ -16,7 +16,7 @@ To install the script itself and be able to run it from anywhere, follow these s
 
 1. Download and Install the script:
     ```bash
-    sudo bash -c "$(curl -sL https://raw.githubusercontent.com/Masouuuuuuud/Masoud-Marz/refs/heads/main/install.sh?token=GHSAT0AAAAAAC65H4N7AE2T43RGPAL472Q4Z5PDFWQ)" @ install-script
+    sudo bash -c "$(curl -sL https://raw.githubusercontent.com/Masouuuuuuud/Masoud-Marz/refs/heads/main/install.sh)" @ install-script
     ```
 
 2. You can now run the script using the `marznode` command.
