@@ -4,6 +4,10 @@ The `marznode` script helps manage the installation, updates and maintenance of 
 
 ## Features
 
+Reality Shortid : openssl rand -hex 8
+Reality Private : docker exec marzneshin-marznode-1 xray x25519
+
+
 - **Install/Uninstall MarzNode**: Easily install or remove MarzNode.
 - **Start/Stop/Restart**: Manage the MarzNode service (start, stop, or restart).
 - **Logs**: View recent MarzNode logs.
