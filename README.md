@@ -29,7 +29,7 @@ After installation, the script provides multiple commands to manage MarzNode. He
 
 To install MarzNode along with the required dependencies, run:
 ```bash
-marznode install
+masoud install
 ```
 You will be asked to provide a service port and the MarzNode certificate from the Marzneshin panel.
 
@@ -37,57 +37,57 @@ You will be asked to provide a service port and the MarzNode certificate from th
 
 - Start the MarzNode service:
     ```bash
-    marznode start
+    masoud start
     ```
 - Stop the MarzNode service:
     ```bash
-    marznode stop
+    masoud stop
     ```
 - Restart the MarzNode service:
     ```bash
-    marznode restart
+    masoud restart
     ```
 
 ### Show MarzNode Status
 
 To check if MarzNode is running and view the uptime:
 ```bash
-marznode status
+masoud status
 ```
 
 ### View Logs
 
 To view recent logs of MarzNode:
 ```bash
-marznode logs
+masoud logs
 ```
 
 ### Uninstall MarzNode
 
 To uninstall MarzNode and remove all related files:
 ```bash
-marznode uninstall
+masoud uninstall
 ```
 
 ### Script Version
 
 To check the current version of the script:
 ```bash
-marznode version
+masoud version
 ```
 
 ## Updating the Script
 
 To update the script itself:
 ```bash
-marznode update-script
+masoud update-script
 ```
 
 ## Uninstall the Script
 
 To uninstall the script and remove it from `/usr/local/bin`:
 ```bash
-marznode uninstall-script
+masoud uninstall-script
 ```
 
 ## Full Command List
