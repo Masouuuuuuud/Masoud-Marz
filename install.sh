@@ -5,7 +5,7 @@ IFS=$'\n\t'
 
 SCRIPT_NAME="masoud"
 SCRIPT_VERSION="v0.1.0"
-SCRIPT_URL="https://raw.githubusercontent.com/erfjab/marznode/main/install.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/Masouuuuuuud/Masoud-Marz/refs/heads/main/install.sh?token=GHSAT0AAAAAAC65H4N7YF5HOHA3VCDWWKEOZ5PDAQA"
 INSTALL_DIR="/var/lib/masoud"
 LOG_FILE="${INSTALL_DIR}/marznode.log"
 COMPOSE_FILE="${INSTALL_DIR}/docker-compose.yml"
