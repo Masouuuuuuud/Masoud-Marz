@@ -4,7 +4,9 @@ The `marznode` script helps manage the installation, updates and maintenance of 
 
 ## Features
 
+
 Reality Shortid : openssl rand -hex 8
+
 Reality Private : docker exec marzneshin-marznode-1 xray x25519
 
 
