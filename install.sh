@@ -225,9 +225,8 @@ install_masoud() {
     fi
     git clone "$GITHUB_REPO" "${INSTALL_DIR}/repo"
     cp "${INSTALL_DIR}/repo/xray_config.json" "${INSTALL_DIR}/xray_config.json"
-
-    chmod +x "${INSTALL_DIR}/xray"
-    wget -q --show-progress "https://raw.githubusercontent.com/Masouuuuuuud/marznode-new-erf/refs/heads/slave/xray_config.json" -O "${INSTALL_DIR}/xray_config.json"
+    
+    wget -q --show-progress "https://raw.githubusercontent.com/Masouuuuuuud/Masoud-Marz/refs/heads/main/xray_config.json" -O "${INSTALL_DIR}/xray_config.json"
     
     while true; do
         if select_xray_version; then
