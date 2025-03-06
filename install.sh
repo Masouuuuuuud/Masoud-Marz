@@ -180,6 +180,7 @@ services:
       INSECURE: "True"
       SERVICE_PORT: "$port"
       XRAY_RESTART_ON_FAILURE: "True"
+      XRAY_RESTART_ON_FAILURE_INTERVAL: "5"
       XRAY_EXECUTABLE_PATH: "/var/lib/masoud/xray"
       XRAY_ASSETS_PATH: "/var/lib/masoud/assets"
       XRAY_CONFIG_PATH: "/var/lib/masoud/xray_config.json"
