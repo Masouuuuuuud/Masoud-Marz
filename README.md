@@ -6,12 +6,12 @@ The `marznode` script helps manage the installation, updates and maintenance of 
 
  Reality Shortid :
 ```bash 
-     openssl rand -hex 8
+openssl rand -hex 8
  ```
 
 Reality Private :
 ```bash 
-     docker exec marzneshin-marznode-1 xray x25519
+docker exec marzneshin-marznode-1 xray x25519
  ```
 
 - **Install/Uninstall MarzNode**: Easily install or remove MarzNode.
