@@ -40,6 +40,91 @@
             }
         },
         {
+  "tag": "VLESS+XHTTP+REALITY+2053",
+  "listen": "0.0.0.0",
+  "port": 2053,
+  "protocol": "vless",
+  "settings": {
+    "clients": [],
+    "decryption": "none"
+  },
+  "streamSettings": {
+    "network": "xhttp",
+    "security": "reality",
+    "xhttpSettings": {
+      "path": "/myaccount",
+      "host": "",
+      "headers": {},
+      "noSSEHeader": false,
+      "xPaddingBytes": "100-1000",
+      "mode": "auto"
+    },
+    "realitySettings": {
+      "show": false,
+      "dest": "journalofbigdata.springeropen.com:443",
+      "xver": 0,
+      "serverNames": [
+        "journalofbigdata.springeropen.com"
+      ],
+      "privateKey": "EK98XxWz_alIcYizHlSQM-86BIx1G2awcezRP8F_h1A",
+      "publicKey": "YourPubKey",
+      "shortIds": [
+        "6dca2a655ab7508c"
+      ],
+      "spiderX": "/",
+      "fingerprint": "random"
+    }
+  },
+  "sniffing": {
+    "enabled": true,
+    "destOverride": [
+      "http",
+      "tls",
+      "quic",
+      "fakedns"
+    ],
+    "metadataOnly": false,
+    "routeOnly": false
+  }
+},
+         {
+            "tag": "xHTTP CDN",
+            "listen": "0.0.0.0",
+            "port": 80,
+            "protocol": "vless",
+            "settings": {
+                "clients": [],
+                "decryption": "none",
+                "fallbacks": []
+            },
+            "streamSettings": {
+                "network": "xhttp",
+                "security": "none",
+                "externalProxy": [],
+                "xhttpSettings": {
+                    "path": "/",
+                    "host": "",
+                    "headers": {},
+                    "scMaxBufferedPosts": 30,
+                    "scMaxEachPostBytes": "1000000",
+                    "noSSEHeader": false,
+                    "xPaddingBytes": "100-1000",
+                    "mode": "auto"
+                }
+            },
+            "sniffing": {
+                "enabled": false,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic",
+                    "fakedns"
+                ],
+                "metadataOnly": false,
+                "routeOnly": false
+            }
+        }
+        {
             "tag": "VLESS GRPC NOTLS",
             "listen": "0.0.0.0",
             "port": 8080,
