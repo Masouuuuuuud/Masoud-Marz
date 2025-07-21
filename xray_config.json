@@ -123,7 +123,7 @@
                 "metadataOnly": false,
                 "routeOnly": false
             }
-        }
+        },
         {
             "tag": "VLESS GRPC NOTLS",
             "listen": "0.0.0.0",
