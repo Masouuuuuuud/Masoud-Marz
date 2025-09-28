@@ -71,8 +71,8 @@
             "settings": {
                 "publicKey": "I_6PSo1ZySfCbOUxZ5wzp4dKywPTZLysUdjUvdNWaHs",
                 "fingerprint": "chrome",
-                "serverName": "",
-                "spiderX": "/"
+                "serverName": "auth",
+                "spiderX": "/eGro76"
             }
         },
         "xhttpSettings": {
