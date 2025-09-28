@@ -98,8 +98,45 @@
         "routeOnly": false
     }
 },
+        {
+    "tag": "VLESS XHTTP NOTLS 20098",
+    "listen": "0.0.0.0",
+    "port": 20098,
+    "protocol": "vless",
+    "settings": {
+        "clients": [],
+        "decryption": "none",
+        "fallbacks": []
+    },
+    "streamSettings": {
+        "network": "xhttp",
+        "security": "none",
+        "externalProxy": [],
+        "xhttpSettings": {
+            "path": "/",
+            "host": "",
+            "headers": {},
+            "scMaxBufferedPosts": 30,
+            "scMaxEachPostBytes": "1000000",
+            "noSSEHeader": false,
+            "xPaddingBytes": "100-1000",
+            "mode": "auto"
+        }
+    },
+    "sniffing": {
+        "enabled": false,
+        "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+        ],
+        "metadataOnly": false,
+        "routeOnly": false
+    }
+},
          {
-            "tag": "xHTTP CDN",
+            "tag": "xHTTP CDN 80",
             "listen": "0.0.0.0",
             "port": 80,
             "protocol": "vless",
